@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-rajs
+spec:
+  containers:
+  - name: nginx-rajsiru
+    image: nginx
+    ports:
+    - containerPort: 80
